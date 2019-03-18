@@ -1,0 +1,19 @@
+Fortune-teller
+
+- create database from the cards with the meanings, pictures, names, positivity/negativity + creation of data_manager
+- html design containing 12 random card palces, 3 empty places for picking
+- home page with a form for the name and button for starting the fortune-telling
+- reset button for the resuffling of the deck on the fortune telling page + back to home page button
+- picking 12 random card from the database when fortune-telling site is called
+- js --> clicking on a card puts it on the picked cards place
+
+
+EXTRA:
+- saving predictions to database and a web page for checking earlier predictions (openable from home page with a link)
+- changing the number of cards to pick on the home page
+
+
+
+text:
+ Name! "In your future I see ...." 1, 2 , 3
+Ez alapján egy pozitív/negatív jövő áll előtted.
