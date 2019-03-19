@@ -30,6 +30,7 @@ button {
 }
 
 img {
+    size: A3;
     position: relative;
     margin-left: 500px;
     border-style: groove;
@@ -38,7 +39,7 @@ img {
 
 }
 form {
-    margin:20% 20%;
+    margin:10% 10%;
 }
 
 label {
