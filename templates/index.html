@@ -6,13 +6,15 @@
     <script src="{{ url_for('static', filename='js/game.js')}}" defer></script>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
 </head>
+
 <body>
 <h1>Fortune-Teller</h1>
-<img src="../static/css/Josno.jpg">
-<form action="/name"  method="post">
+<img class="image" src="../static/css/Josno.jpg" height="300" width="300">
+<form action="/"  method="post">
     <label id="label">Your Name</label>
-    <textarea id="textarea" placeholder="Name" cols="50" rows="1"></textarea>
+    <textarea name="name" id="textarea" placeholder="Name" cols="50" rows="1"></textarea>
     <button id="button" type="submit" >Tell  my future now!</button>
 </form>
 </body>
+
 </html>
