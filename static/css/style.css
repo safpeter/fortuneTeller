@@ -17,10 +17,11 @@ body {
     border-style: groove;
     border-color: goldenrod;
     border-width: 30px;
+    margin: unset;
 }
 
 button {
-    background-color: red;
+    background-color: darkred;
     border-color: goldenrod;
     border-style: groove;
     border-width: 10px;
@@ -28,9 +29,9 @@ button {
     border-radius: 60%;
     padding: 40px;
     font-family: Aladin,sans-serif;
-    margin:5px 5px;
     color: goldenrod;
     font-weight: bold;
+    margin-left: 70%;
 }
 
 .image {
@@ -40,20 +41,17 @@ button {
     border-width: 10px;
 }
 
-form {
-    margin:5% 5%;
-}
-
 label {
-    text-align: center;
-    position: relative;
+    position: absolute;
     font-size: 150%;
     display:block;
     float: left;
+    margin-left: 15%;
 }
 textarea {
     border-radius: 4%;
     padding: 10px 10px;
+    margin: 2%;
     border-color: goldenrod;
     border-style: groove;
     border-width: 10px;
@@ -62,6 +60,8 @@ textarea {
     float: left;
     font-size: 150%;
     font-family: Aladin, sans-serif;
+    color: goldenrod;
+    background-color: darkred;
 }
 
 .card {
