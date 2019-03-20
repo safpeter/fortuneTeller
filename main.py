@@ -9,6 +9,7 @@ saved_data = {}
 def index():
     if request.method == "POST":
         saved_data['sucker_name'] = request.form['sucker_name']
+        return render_template('prediction.html')
     return render_template('index.html')\
 
 
