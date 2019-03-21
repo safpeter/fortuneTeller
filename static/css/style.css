@@ -15,13 +15,16 @@ h1 {
 
 body {
     background-image: url("../css/elegant-red-background_1340-4770.png") ;
-    background-size: 150%;
+    background-size: cover;
     color :goldenrod;
     font-family: Aladin, sans-serif;
     border-style: groove;
     border-color: goldenrod;
     border-width: 30px;
     margin: unset;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 button {

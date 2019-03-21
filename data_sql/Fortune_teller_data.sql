@@ -25,7 +25,7 @@ DROP SEQUENCE IF EXISTS public.users_id_seq;
 DROP TABLE IF EXISTS public.cards;
 CREATE TABLE cards (
   id serial NOT NULL,
-  name text,If you eat too much chicken
+  name text,
   meaning text,
   polarity text,
   pic_route text,
@@ -81,7 +81,7 @@ INSERT INTO cards VALUES (21, 'malady', 'You don''t have to work anymore', '+', 
 
 INSERT INTO cards VALUES (22, 'melancholy', 'Sitting on curly brackets won''t help you learn javascript', '-', '../static/gypsy_card/melancholy.png');
 
-INSERT INTO cards VALUES (23, 'messenger', 'You will develop a new messenger app', '+',, '../static/gypsy_card/messenger.png');
+INSERT INTO cards VALUES (23, 'messenger', 'You will develop a new messenger app', '+', '../static/gypsy_card/messenger.png');
 
 INSERT INTO cards VALUES (24, 'misfortune', 'Walls of a house on fire can be very slippery', '-', '../static/gypsy_card/misfortune.png');
 
