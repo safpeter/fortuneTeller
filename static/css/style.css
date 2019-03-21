@@ -127,3 +127,29 @@ input {
     padding:1%;
     margin-top: 1%;
 }
+
+.card1 {
+    border:none;
+    height:12%;
+    width:12%;
+    margin:1% 1%;
+    position: center;
+}
+
+.card2 {
+    border:none;
+    height:12%;
+    width:12%;
+    margin:1% 1%;
+    position: center;
+}
+
+.card3 {
+    border:none;
+    height:12%;
+    width:12%;
+    margin:1% 1%;
+    position: center;
+}
+
+
