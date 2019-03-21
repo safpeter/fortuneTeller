@@ -32,14 +32,14 @@ button {
     border-color: goldenrod;
     border-style: groove;
     border-width: 10px;
-    font-size: 250%;
-    border-radius: 50%;
+    font-size: 220%;
+    border-radius: 60%;
     font-family: Aladin,sans-serif;
     color: goldenrod;
     font-weight: bold;
     margin-left: 60%;
     float:left;
-    padding:8%;
+    padding:7%;
     margin-top: -12%;
 }
 
@@ -56,11 +56,11 @@ label {
     display:block;
     float: left;
     margin-left: 18%;
+    margin-top: -2%;
 }
 textarea {
     border-radius: 40%;
     padding: 10px 10px;
-    margin: 2%;
     border-color: goldenrod;
     border-style: groove;
     border-width: 10px;
@@ -71,6 +71,8 @@ textarea {
     color: goldenrod;
     background-color: darkred;
     float:left;
+    margin-left:5%
+    margin-top:-1%;
 }
 
 .card {
