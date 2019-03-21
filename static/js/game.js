@@ -10,8 +10,9 @@ for (let i = 0 ;i<card.length;i++) {
             this.setAttribute('src', card_route);
             count++;
         }
-        })
+                })
 }
+
 
 let button = document.getElementById('btn');
 
@@ -23,3 +24,14 @@ button.addEventListener('mouseout', function () {
     button.style.backgroundColor ='darkred';
 });
 
+
+let textarea = document.getElementById('area');
+
+textarea.addEventListener('mouseover', function () {
+
+    textarea.style.backgroundColor = 'red';
+})
+
+textarea.addEventListener('mouseout', function () {
+    textarea.style.backgroundColor = 'darkred';
+})
