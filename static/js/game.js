@@ -82,5 +82,8 @@ textarea.addEventListener('mouseout', function () {
 function ShowPrediction() {
     document.getElementById("main").innerHTML =
         "<h1 class='h1'>Your future is(0,001% sure):</h1>" +
+        "<img class='card1' src=" + card1_route + ">" +
+        "<img class='card2' src=" + card2_route + ">" +
+        "<img class='card3' src=" + card3_route + ">" +
         "<img class='img' src='/static/css/Josno.jpg' >"
 }
