@@ -43,9 +43,9 @@ INSERT INTO cards VALUES (2, 'consolation', 'You need to clean the table, if you
 
 INSERT INTO cards VALUES (3, 'death', 'If you have batwings, just cut them off', '-', '../static/gypsy_card/death.png');
 
-INSERT INTO cards VALUES (4, 'despair', 'Deak Ferenc', '-', '../static/gypsy_card/despair.png');
+INSERT INTO cards VALUES (4, 'despair', 'Deák Ferenc', '-', '../static/gypsy_card/despair.png');
 
-INSERT INTO cards VALUES (5, 'doctor', 'Be careful. Zoltan Kodaly wants your girl touch him', '-', '../static/gypsy_card/doctor.png');
+INSERT INTO cards VALUES (5, 'doctor', 'Be careful. Zoltán Kodály wants your girl to touch him', '-', '../static/gypsy_card/doctor.png');
 
 INSERT INTO cards VALUES (6, 'enemy', 'Your personal mentor dresses like a woman and hides behind a tree', '+', '../static/gypsy_card/enemy.png');
 
@@ -53,7 +53,7 @@ INSERT INTO cards VALUES (7, 'faithfulness', 'Buy something from gypsies and you
 
 INSERT INTO cards VALUES (8, 'falseness', 'Your cat will turn into Yoda', '-', '../static/gypsy_card/falseness.png');
 
-INSERT INTO cards VALUES (9, 'foe', 'Don''t let the one-armed woman in', '-', '../static/gypsy_card/foe.png');
+INSERT INTO cards VALUES (9, 'foe', 'Don''t let in the one-armed woman', '-', '../static/gypsy_card/foe.png');
 
 INSERT INTO cards VALUES (10, 'fortune', 'You''ll be so rich that your girl will pour money from her breast', '+', '../static/gypsy_card/fortune.png');
 
@@ -75,7 +75,7 @@ INSERT INTO cards VALUES (18, 'lord', 'Your horse will eat your trousers, but yo
 
 INSERT INTO cards VALUES (19, 'love', 'Your child eat in McDonalds too often', '-', '../static/gypsy_card/love.png');
 
-INSERT INTO cards VALUES (20, 'lover', 'Don''t panic, search your trousers on balconies', '+', '../static/gypsy_card/lover.png');
+INSERT INTO cards VALUES (20, 'lover', 'Don''t panic, search your trousers on the balconies', '+', '../static/gypsy_card/lover.png');
 
 INSERT INTO cards VALUES (21, 'malady', 'You don''t have to work anymore', '+', '../static/gypsy_card/malady.png');
 
@@ -85,11 +85,11 @@ INSERT INTO cards VALUES (23, 'messenger', 'You will develop a new messenger app
 
 INSERT INTO cards VALUES (24, 'misfortune', 'Walls of a house on fire can be very slippery', '-', '../static/gypsy_card/misfortune.png');
 
-INSERT INTO cards VALUES (25, 'money', 'Broking up with your girlfriend will earn you a lot of money', '+', '../static/gypsy_card/money.png');
+INSERT INTO cards VALUES (25, 'money', 'Breaking up with your girlfriend will earn you a lot of money', '+', '../static/gypsy_card/money.png');
 
 INSERT INTO cards VALUES (26, 'old_woman', 'Someone will steal your grandma''s biggest painting', '+', '../static/gypsy_card/old_woman.png');
 
-INSERT INTO cards VALUES (27, 'party', 'Be aware of girls who wants you to split in their glasses', '+', '../static/gypsy_card/party.png');
+INSERT INTO cards VALUES (27, 'party', 'Be aware of girls who wants you to spit in their glasses', '+', '../static/gypsy_card/party.png');
 
 INSERT INTO cards VALUES (28, 'pleasure-seekers', 'One of your friends likes wearing woman''s underwear', '-', '../static/gypsy_card/pleasure-seekers.png');
 
@@ -99,7 +99,7 @@ INSERT INTO cards VALUES (30, 'prison', 'Don''t show your face when you wear red
 
 INSERT INTO cards VALUES (31, 'reunion', 'A lady will appreciate if you help her out from a banana', '+', '../static/gypsy_card/reunion.png');
 
-INSERT INTO cards VALUES (32, 'scholar', 'This card shows you by the time you finish javascript tutorial', '-', '../static/gypsy_card/scholar.png');
+INSERT INTO cards VALUES (32, 'scholar', 'This card shows you the time you need to finish javascript tutorial', '-', '../static/gypsy_card/scholar.png');
 
 INSERT INTO cards VALUES (33, 'servant', 'Your future wife', '+', '../static/gypsy_card/servant.png');
 
