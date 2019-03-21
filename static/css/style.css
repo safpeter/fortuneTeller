@@ -81,6 +81,14 @@ textarea {
     position: center;
 }
 
+.cardFront {
+    border:none;
+    height:12%;
+    width:12%;
+    margin:1% 1%;
+    position: center;
+}
+
 .allcards {
  margin-left: 7%;
 }
