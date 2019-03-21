@@ -73,5 +73,5 @@ textarea.addEventListener('mouseout', function () {
 
 function ShowPrediction() {
     document.getElementsByTagName("body")[0].innerHTML =
-        "<h1>Jó lesz!!!</h1>"
+        "<h1>Your future is(0,001% sure):</h1>"
 }
