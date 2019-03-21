@@ -59,7 +59,8 @@ label {
     margin-left: 21%;
     margin-top: -3%;
 }
-textarea {
+
+input {
     border-radius: 40%;
     padding: 10px 10px;
     border-color: goldenrod;
@@ -79,8 +80,8 @@ textarea {
 .card {
     border:none;
     cursor:pointer;
-    height: 13% ;
-    width: 13%;
+    height: 14% ;
+    width: 13.5%;
     margin:1% 1%;
     position: center;
 }
@@ -104,7 +105,7 @@ textarea {
     height: 16%;
     width: 16%;
     margin-top: 17%;
-    margin-left:3%;
+    margin-left: 30%;
 }
 
 .h1 {
