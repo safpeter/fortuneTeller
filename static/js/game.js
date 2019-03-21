@@ -30,8 +30,8 @@ let textarea = document.getElementById('area');
 textarea.addEventListener('mouseover', function () {
 
     textarea.style.backgroundColor = 'red';
-})
+});
 
 textarea.addEventListener('mouseout', function () {
     textarea.style.backgroundColor = 'darkred';
-})
+});
