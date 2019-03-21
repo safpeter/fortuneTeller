@@ -4,15 +4,15 @@ const card = document.getElementsByClassName('card');
 let count = 0;
 
 for (let i = 0 ;i<card.length;i++) {
-    card[i].addEventListener('click',function () {
-        if (count < 3) {
-            let card_route = this.dataset.card_route;
-            this.setAttribute('src', card_route);
-            count++;
-        }
-                })
+        card[i].addEventListener('click', function () {
+            if (count < 3) {
+                let card_route = this.dataset.card_route;
+                this.setAttribute('src', card_route);
+                count++;
+                console.log(count)
+            }
+        })
 }
-
 
 let button = document.getElementById('btn');
 
@@ -35,3 +35,4 @@ textarea.addEventListener('mouseover', function () {
 textarea.addEventListener('mouseout', function () {
     textarea.style.backgroundColor = 'darkred';
 });
+

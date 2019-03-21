@@ -6,7 +6,6 @@
     <script src="{{ url_for('static', filename='js/game.js')}}" defer></script>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
 </head>
-
 <body>
 <h1 class="header">Pick 3 Cards!</h1>
 <img class="card" src="../static/css/cardBack.jpg" data-card_name="{{ card1['name'] }}"
@@ -63,6 +62,7 @@
                                                    data-card_meaning="{{ card11['meaning'] }}"
                                                    data-card_polarity="{{ card11['polarity'] }}"
                                                    data-card_route="{{ card11['pic_route'] }}" alt="Missing image!">
+
 
 <img class="card" src="../static/css/cardBack.jpg" data-card_name="{{ card12['name'] }}"
                                                    data-card_meaning="{{ card12['meaning'] }}"
