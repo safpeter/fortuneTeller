@@ -70,7 +70,6 @@ button.addEventListener('mouseout', function () {
 let textarea = document.getElementById('area');
 
 textarea.addEventListener('mouseover', function () {
-
     textarea.style.backgroundColor = 'red';
 });
 
@@ -81,14 +80,27 @@ textarea.addEventListener('mouseout', function () {
 
 function ShowPrediction() {
     document.getElementById("main").innerHTML =
-        "<img class='card1' src=" + card1_route + ">" +
+        "<label class='card11' for='card1'>" +card1_name +"</label>"+
+        "<label class='card22' for='card1'>" +card2_name +"</label>"+
+        "<label class='card33' for='card1'>" +card3_name +"</label>"+
+    "<img class='card1' src=" + card1_route + ">" +
         "<img class='card2' src=" + card2_route + ">" +
         "<img class='card3' src=" + card3_route + ">" +
         "<img class='img' src='/static/css/Josno.jpg' >" +
-        "<textarea readonly cols='160' rows='10'>My dear " + user + "!&#10;" +
-                                                "Let's see what the cards advise,&#10;" +
+        "<textarea  readonly cols='75' rows='8'>My dear " + user + "!&#10;" +
+                                                "Let's see what the cards advise," +
                                                 "and what they tell about your future:&#10; &#10; " +
-                                                 card1_meaning + "&#10; &#10; " + card2_meaning + "&#10; &#10; " + card3_meaning + "</textarea>"
+                                                 "- " + card1_meaning + "&#10; &#10; - " + card2_meaning + "&#10; &#10; - " + card3_meaning + "</textarea>" ;
 
 }
 
+let string = "My dear " + user + "!&#10;" +
+                                                "Let's see what the cards advise," +
+                                                "and what they tell about your future:&#10; &#10; " +
+                                                 "- " + card1_meaning + "&#10; &#10; - " + card2_meaning + "&#10; &#10; - " + card3_meaning + " ";
+let str = string.split("");
+let el = document.getElementById('str');
+(function animate() {
+str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running);
+let running = setTimeout(animate, 90);
+})();
