@@ -43,7 +43,7 @@ for (let i = 0 ;i<card.length;i++) {
                 card3_meaning = this.dataset.card_meaning;
                 card3_polarity =this.dataset.card_polarity;
                 count++;
-                setTimeout(function(){ ShowPrediction()}, 2000)
+                setTimeout(function() {ShowPrediction()}, 2000)
             }
         })
 }
@@ -72,7 +72,9 @@ textarea.addEventListener('mouseout', function () {
 
 
 function ShowPrediction() {
-    document.getElementsByTagName("body")[0].innerHTML =
-        "<h1 class='h1'>Your future is(0,001% sure):</h1>" +
+    document.getElementById("main").innerHTML =
+          "<h1 class='h1'>Your future is(0,001% sure):</h1>" +
         "<img class='img' src='/static/css/Josno.jpg' >"
+
+
 }

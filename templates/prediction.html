@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
 </head>
 <body>
-<h1 class="header">Pick 3 Cards!</h1>
-<div class="allcards">
+<form action="/fortunetelling-for-{{ user }}" method="POST">
+<button id="btn" class="homebutton" type="submit">Back to the Waggon</button>
+</form>
+<div id="main">
+<h1 class="header">Pick 3 Cards {{ user }}!</h1>
+    <div class="allcards">
 <img class="card" src="../static/css/cardBack.jpg" data-card_name="{{ card1['name'] }}"
                                                    data-card_meaning="{{ card1['meaning'] }}"
                                                    data-card_polarity="{{ card1['polarity'] }}"
@@ -69,6 +73,7 @@
                                                    data-card_meaning="{{ card12['meaning'] }}"
                                                    data-card_polarity="{{ card12['polarity'] }}"
                                                    data-card_route="{{ card12['pic_route'] }}" alt="Missing image!">
+    </div>
 </div>
 </body>
 
