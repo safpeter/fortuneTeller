@@ -97,6 +97,20 @@ textarea {
  margin-left: 7%;
 }
 
+.img {
+    border-style: groove;
+    border-width: 10px;
+    border-color: goldenrod;
+    height: 16%;
+    width: 16%;
+    margin-top: 17%;
+    margin-left:3%;
+}
+
+.h1 {
+    font-size: 250%;
+}
+
 .homebutton {
     background-color: darkred;
     border-color: goldenrod;
