@@ -11,7 +11,7 @@
 <button id="btn" class="homebutton" type="submit">Back to the Waggon</button>
 </form>
 <div id="main">
-<h1 class="header">Pick 3 Cards {{ user }}!</h1>
+<h1 class="header" data-user="{{ user }}">Pick 3 Cards {{ user }}!</h1>
     <div class="allcards">
 <img class="card" src="../static/css/cardBack.jpg" data-card_name="{{ card1['name'] }}"
                                                    data-card_meaning="{{ card1['meaning'] }}"

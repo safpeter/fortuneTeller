@@ -1,17 +1,22 @@
 
+let user = document.getElementsByClassName("header")[0].dataset.user;
+
 const card = document.getElementsByClassName('card');
 
 let card1_name = "";
 let card1_meaning = "";
 let card1_polarity = "";
+let card1_route = "";
 
 let card2_name = "";
 let card2_meaning = "";
 let card2_polarity = "";
+let card2_route = "";
 
 let card3_name = "";
 let card3_meaning = "";
 let card3_polarity = "";
+let card3_route = "";
 
 let count = 0;
 
@@ -24,6 +29,7 @@ for (let i = 0 ;i<card.length;i++) {
                 card1_name = this.dataset.card_name;
                 card1_meaning = this.dataset.card_meaning;
                 card1_polarity =this.dataset.card_polarity;
+                card1_route = this.dataset.card_route;
                 count++;
             }
             else if (count === 1) {
@@ -33,6 +39,7 @@ for (let i = 0 ;i<card.length;i++) {
                 card2_name = this.dataset.card_name;
                 card2_meaning = this.dataset.card_meaning;
                 card2_polarity =this.dataset.card_polarity;
+                card2_route = this.dataset.card_route;
                 count++;
             }
             else if (count === 2) {
@@ -42,6 +49,7 @@ for (let i = 0 ;i<card.length;i++) {
                 card3_name = this.dataset.card_name;
                 card3_meaning = this.dataset.card_meaning;
                 card3_polarity =this.dataset.card_polarity;
+                card3_route = this.dataset.card_route;
                 count++;
                 setTimeout(function() {ShowPrediction()}, 2000)
             }
@@ -73,6 +81,6 @@ textarea.addEventListener('mouseout', function () {
 
 function ShowPrediction() {
     document.getElementById("main").innerHTML =
-        "<h1>Jó lesz!!!</h1>"
+        "valami"
 
 }
