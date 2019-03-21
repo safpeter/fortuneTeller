@@ -16,13 +16,16 @@ h1 {
 
 body {
     background-image: url("../css/elegant-red-background_1340-4770.png") ;
-    background-size: 150%;
+    background-size: cover;
     color :goldenrod;
     font-family: Aladin, sans-serif;
     border-style: groove;
     border-color: goldenrod;
     border-width: 30px;
     margin: unset;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 button {
@@ -53,8 +56,8 @@ label {
     font-size: 150%;
     display:block;
     float: left;
-    margin-left: 18%;
-    margin-top: -2%;
+    margin-left: 21%;
+    margin-top: -3%;
 }
 textarea {
     border-radius: 40%;
@@ -78,6 +81,14 @@ textarea {
     cursor:pointer;
     height: 13% ;
     width: 13%;
+    margin:1% 1%;
+    position: center;
+}
+
+.cardFront {
+    border:none;
+    height:12%;
+    width:12%;
     margin:1% 1%;
     position: center;
 }

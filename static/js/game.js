@@ -74,4 +74,5 @@ textarea.addEventListener('mouseout', function () {
 function ShowPrediction() {
     document.getElementById("main").innerHTML =
         "<h1>Jó lesz!!!</h1>"
+
 }
