@@ -85,6 +85,10 @@ function ShowPrediction() {
         "<img class='card2' src=" + card2_route + ">" +
         "<img class='card3' src=" + card3_route + ">" +
         "<img class='img' src='/static/css/Josno.jpg' >" +
-        "<textarea readonly cols='160' rows='10'></textarea>"
+        "<textarea readonly cols='160' rows='10'>My dear " + user + "!&#10;" +
+                                                "Let's see what the cards advise,&#10;" +
+                                                "and what they tell about your future:&#10; &#10; " +
+                                                 card1_meaning + "&#10; &#10; " + card2_meaning + "&#10; &#10; " + card3_meaning + "</textarea>"
+
 }
 
