@@ -102,10 +102,10 @@ input {
     border-style: groove;
     border-width: 10px;
     border-color: goldenrod;
-    height: 10%;
-    width: 10%;
+    height: 14%;
+    width: 14%;
     margin-top: -25%;
-    margin-left: 70%;
+    margin-left: 80%;
     margin-right:5%;
 }
 
@@ -113,6 +113,10 @@ textarea {
     padding: 2%;
     border-radius: 5px;
     margin-left: 2%;
+    font-family: Aladin;
+    font-size: 150%;
+    color: goldenrod;
+    background-color:silver;
 }
 
 .h1 {
@@ -140,6 +144,7 @@ textarea {
     height:12%;
     width:12%;
     margin-left:2%;
+    margin-top: 1%;
 }
 
 .card2 {
@@ -147,6 +152,8 @@ textarea {
     height:12%;
     width:12%;
     margin-left:2%;
+    margin-top: 1%;
+
 }
 
 .card3 {
@@ -154,6 +161,8 @@ textarea {
     height:12%;
     width:12%;
     margin-left: 2%;
+    margin-top: 1%;
+
 }
 
 
