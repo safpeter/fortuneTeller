@@ -43,7 +43,7 @@ for (let i = 0 ;i<card.length;i++) {
                 card3_meaning = this.dataset.card_meaning;
                 card3_polarity =this.dataset.card_polarity;
                 count++;
-                setTimeout(ShowPrediction(), 3000)
+                setTimeout(function() {ShowPrediction()}, 2000)
             }
         })
 }
@@ -72,6 +72,6 @@ textarea.addEventListener('mouseout', function () {
 
 
 function ShowPrediction() {
-    document.getElementsByTagName("body")[0].innerHTML =
+    document.getElementById("main").innerHTML =
         "<h1>Jó lesz!!!</h1>"
 }
