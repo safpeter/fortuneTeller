@@ -85,5 +85,6 @@ function ShowPrediction() {
         "<img class='card1' src=" + card1_route + ">" +
         "<img class='card2' src=" + card2_route + ">" +
         "<img class='card3' src=" + card3_route + ">" +
-        "<img class='img' src='/static/css/Josno.jpg' >"
+        "<img class='img' src='/static/css/Josno.jpg' >" +
+        "<textarea readonly cols='160' rows='10'></textarea>"
 }
