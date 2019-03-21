@@ -5,8 +5,6 @@ import data_manager
 
 app = Flask(__name__)
 
-saved_data = {}
-
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
