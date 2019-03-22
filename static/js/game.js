@@ -88,19 +88,7 @@ function ShowPrediction() {
         "<img class='card3' src=" + card3_route + ">" +
         "<img class='img' src='/static/css/Josno.jpg' >" +
         "<textarea  readonly cols='75' rows='8'>My dear " + user + "!&#10;" +
-                                                "Let's see what the cards advise," +
+                                                "Let's see what the cards advise, " +
                                                 "and what they tell about your future:&#10; &#10; " +
-                                                 "- " + card1_meaning + "&#10; &#10; - " + card2_meaning + "&#10; &#10; - " + card3_meaning + "</textarea>" ;
-
+                                                 "- " + card1_meaning + "&#10; &#10; - " + card2_meaning + "&#10; &#10; - " + card3_meaning + "</textarea>";
 }
-
-let string = "My dear " + user + "!&#10;" +
-                                                "Let's see what the cards advise," +
-                                                "and what they tell about your future:&#10; &#10; " +
-                                                 "- " + card1_meaning + "&#10; &#10; - " + card2_meaning + "&#10; &#10; - " + card3_meaning + " ";
-let str = string.split("");
-let el = document.getElementById('str');
-(function animate() {
-str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running);
-let running = setTimeout(animate, 90);
-})();

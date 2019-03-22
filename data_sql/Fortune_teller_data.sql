@@ -45,7 +45,7 @@ INSERT INTO cards VALUES (3, 'death', 'If you have batwings, just cut them off',
 
 INSERT INTO cards VALUES (4, 'despair', 'Deák Ferenc', '-', '../static/gypsy_card/despair.png');
 
-INSERT INTO cards VALUES (5, 'doctor', 'Be careful. Zoltán Kodály wants your girl to touch him', '-', '../static/gypsy_card/doctor.png');
+INSERT INTO cards VALUES (5, 'doctor', 'Be careful. Kodály Zoltán wants your girl to touch him', '-', '../static/gypsy_card/doctor.png');
 
 INSERT INTO cards VALUES (6, 'enemy', 'Your personal mentor dresses like a woman and hides behind a tree', '+', '../static/gypsy_card/enemy.png');
 
@@ -89,7 +89,7 @@ INSERT INTO cards VALUES (25, 'money', 'Breaking up with your girlfriend will ea
 
 INSERT INTO cards VALUES (26, 'old_woman', 'Someone will steal your grandma''s biggest painting', '+', '../static/gypsy_card/old_woman.png');
 
-INSERT INTO cards VALUES (27, 'party', 'Be aware of girls who wants you to spit in their glasses', '+', '../static/gypsy_card/party.png');
+INSERT INTO cards VALUES (27, 'party', 'Be aware of girls who want you to spit in their glasses', '+', '../static/gypsy_card/party.png');
 
 INSERT INTO cards VALUES (28, 'pleasure-seekers', 'One of your friends likes wearing woman''s underwear', '-', '../static/gypsy_card/pleasure-seekers.png');
 
